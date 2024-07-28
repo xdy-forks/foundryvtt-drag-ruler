@@ -8,6 +8,8 @@ export function getDefaultSpeedAttribute() {
 			return "actor.system.movement.walk.value";
 		case "dnd5e":
 			return "actor.system.attributes.movement.walk";
+		case "dragonbane":
+			return "actor.system.movement.value";
 		case "lancer":
 			return "actor.system.derived.speed";
 		case "pf1":
@@ -44,6 +46,7 @@ export function getDefaultDashMultiplier() {
 		case "sfrpg":
 		case "shadowrun5e":
 		case "ds4":
+		case "dragonbane":
 			return 2;
 		case "CoC7":
 			return 5;
